@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль MQVON</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Экран с кнопкой для входа -->
+    <div id="enter-screen" class="enter-message">
+        Click to Enter
+    </div>
+
+    <!-- Профиль (будет скрыт до нажатия) -->
+    <div class="profile-container">
+        <div class="banner"></div>
+        <div class="profile-header">
+            <div class="avatar">🫧</div>
+            <div class="nickname">MQVON</div>
+            <div class="roles" id="roles-container">
+                <!-- Роли будут добавлены через JavaScript -->
+            </div>
+        </div>
+        <div class="info">
+            <p>Боец</p>
+            <p>ID:<strong> </strong>1688880140</p>
+            <p>USERNAME:</strong>@MQVON</p>
+            <p><i>isizisiz</i></p>
+        </div>
+    </div>
+
+    <!-- Музыка -->
+    <audio id="background-music" src="https://envs.sh/JPZ.mp3" preload="auto"></audio>
+
+    <script src="ProfileManager.js"></script>
+    <script src="EffectsManager.js"></script>
+    <script src="AudioManager.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
